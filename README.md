@@ -27,17 +27,17 @@ routine.run_routine(student)
 
 ## Example of output
 
-6:00: Yay, I’m going to make it in time to the university! Even though I’m still exhausted…
-7:00: Granola for breakfast was perfect, but it's so hard to start working...
-9:00: I arrived at Ukrainian Catholic University
-10:00: I don't think I can keep up with all the deadlines and studying, I'm desperate!
-18:00: All the studying is done!
-19:00: Finally, the last meal of the day!
-21:00: I arrived at Home
-22:00: There is nothing better to boost my mood than a fluffy 6 kilogram cat.
-23:00: What a great time I had during the workout! Worn out, but definitely pleased.
-24:00: This exhausting day has come to an end and I'm absolutely delighted to be in my warm and comfy bed.
-
-Finally, this long day has ended and by the end of the day my energy level had dropped to 20 and level of happiness is 70.
+6:00: Yay, I’m going to make it in time to the university! Even though I’m still exhausted...\
+7:00: Granola for breakfast was perfect, but it's so hard to start working...\
+9:00: I arrived at Ukrainian Catholic University\
+10:00: I don't think I can keep up with all the deadlines and studying, I'm desperate!\
+18:00: All the studying is done!\
+19:00: Finally, the last meal of the day!\
+21:00: I arrived at Home\
+22:00: There is nothing better to boost my mood than a fluffy 6 kilogram cat.\
+23:00: What a great time I had during the workout! Worn out, but definitely pleased.\
+24:00: This exhausting day has come to an end and I'm absolutely delighted to be in my warm and comfy bed.\
+\
+Finally, this long day has ended and by the end of the day my energy level had dropped to 20 and level of happiness is 70.\
 
 ![Diagram](./graphviz.svg)
