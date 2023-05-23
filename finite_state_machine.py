@@ -46,6 +46,7 @@ class Student:
         Change location of the student.
         """
         self.current_location = args[0][0]
+        self.state = StateEnum.TRAVEL
         hour += 2
         print(f"{hour}:00: I arrived at {self.current_location}")
         return (self, None, hour)
@@ -181,7 +182,7 @@ Worn out, but definitely pleased."
     @staticmethod
     def rest(self, energy_impact, happiness_impact, hour):
         """
-        
+        Add the resting state.
         """
         if hour in range(18, 22) and self.deadlines == 0:
             self.state = StateEnum.REST
@@ -300,9 +301,9 @@ class FSM:
  level had dropped to {person.energy} and level of happiness is {person.happiness}."
         )
 
-
-routine = FSM()
-student = Student(StateEnum.SLEEP)
-routine.add_event(State(Student.start_the_day, student, 0))
-routine.add_event(State(Student.eat, student, 30, 10))
-routine.run_routine(student)
+if __name__ == '__main__':
+    routine = FSM()
+    student = Student(StateEnum.SLEEP)
+    routine.add_event(State(Student.start_the_day, student, 0))
+    routine.add_event(State(Student.eat, student, 30, 10))
+    routine.run_routine(student)
