@@ -38,6 +38,6 @@ routine.run_routine(student)
 23:00: What a great time I had during the workout! Worn out, but definitely pleased.\
 24:00: This exhausting day has come to an end and I'm absolutely delighted to be in my warm and comfy bed.\
 \
-Finally, this long day has ended and by the end of the day my energy level had dropped to 20 and level of happiness is 70.\
+Finally, this long day has ended and by the end of the day my energy level had dropped to 20 and level of happiness is 70.
 
 ![Diagram](./graphviz.svg)
